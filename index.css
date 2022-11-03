@@ -1,6 +1,11 @@
-body {
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+body {
+    margin: 0;
+    font-family: "Bebas Neue";
+    color: #F6BE00;
+    background-color: #111;
+    text-align: center;
 }
 
 h1 {
@@ -14,11 +19,52 @@ h2 {
     margin: 20px auto;
 }
 
+h3 {
+    margin: 0px;
+}
+
 p {
     margin: auto auto;
 }
 
-img {
-    margin: 20px auto;
-    display: block;
+header {
+    padding-left: 0px;
+    padding-right: 10px;
+    position: relative;
+    background-color: black;
+    height:80px;
+}
+
+img.logo {
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #F6BE00;
+}
+
+a.logo {
+    padding: 15px;
+}
+
+.bar-item-left {
+    float: left;
+    padding: 23px;
+}
+
+.bar-item-right {
+    float: right;
+    padding: 23px;
+}
+
+.bar-text {
+    font-size: 30px;
+}
+
+.main-banner {
+    margin-top: 200px;
 }
